@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -180,6 +179,11 @@
       border-color: #5a9ff2;
     }
 
+    .plus-plus {
+      font-size: 0.6em;
+      vertical-align: super;
+    }
+
     @media (max-width: 600px) {
       .container {
         padding: 40px 20px;
@@ -216,12 +220,10 @@
     </div>
 
     <h2>About</h2>
-    <p class="intro">I write systems software in C, C++, and Rust. I'm interested in performance optimization, memory
-      management, and
-      low-level programming. I enjoy building efficient, reliable software; whether that be on bare metal, high-level
-      web applications, or anywhere in between. In my spare time, I enjoy cooking, calisthenics, reading Japanese
-      and English books, and
-      playing with my dog, Java.</p>
+    <p class="intro">I build systems software using C, C<span class="plus-plus">++</span>, and Rust, with a focus on
+      performance optimization and memory management. Whether it's bare metal programming or high-level web
+      applications, I'm passionate about writing efficient, reliable code. When I'm not programming, I enjoy cooking,
+      calisthenics, reading in both Japanese and English, and playing with my dog, Java.</p>
 
     <h2>Projects</h2>
 
@@ -230,8 +232,8 @@
         <div class="project-name">Moji (文字)</div>
         <div class="project-title">Multiplayer Kanji Web Game</div>
         <div class="project-lang">Rust</div>
-        <div class="project-desc">Real-time multiplayer web application where players can play against eachother
-          providing a dictionary-valid japanese word that contains a randomly provided kanji.</div>
+        <div class="project-desc">Real-time multiplayer japanese learning platform where players can play against each
+          other providing a dictionary-valid japanese word that contains a randomly provided kanji.</div>
       </div>
     </a>
 
@@ -239,7 +241,7 @@
       <div class="project">
         <div class="project-name">Trace</div>
         <div class="project-title">Interactive Ray Tracing Simulator</div>
-        <div class="project-lang">C++, CUDA</div>
+        <div class="project-lang">C<span class="plus-plus">++</span>, CUDA</div>
         <div class="project-desc">CUDA-accelerated ray tracing simulator that allows the toggling of
           different effects such as time of day, anti-aliasing, and particle reflections in real-time.</div>
       </div>
@@ -258,7 +260,7 @@
 
     <h2>Skills</h2>
     <div class="skills">
-      <span class="skill">C++</span>
+      <span class="skill">C<span class="plus-plus">++</span></span>
       <span class="skill">Rust</span>
       <span class="skill">C</span>
       <span class="skill">ARM Assembly</span>
@@ -266,12 +268,14 @@
       <span class="skill">Java</span>
       <span class="skill">AWS</span>
       <span class="skill">Linux</span>
-      <span class="skill">CUDA</span>
       <span class="skill">Docker</span>
+      <span class="skill">CUDA</span>
       <span class="skill">PostgreSQL</span>
       <span class="skill">MongoDB</span>
-      <span class="skill">NeMo</span>
-      <span class="skill">Microcontrollers</span>
+      <span class="skill">Axum</span>
+      <span class="skill">Leptos</span>
+      <span class="skill">STM32</span>
+
     </div>
 
     <h2>Contact</h2>
