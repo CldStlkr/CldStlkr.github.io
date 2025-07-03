@@ -11,7 +11,7 @@ body {
   background-color: #1a1a1a;
   color: #e0e0e0;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .container {
@@ -68,6 +68,25 @@ p {
   padding: 25px;
   margin-bottom: 20px;
   transition: all 0.3s ease;
+  position: relative;
+}
+
+.project-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.github-icon,
+.link-icon {
+  color: #888;
+  font-size: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.github-icon:hover,
+.link-icon:hover {
+  color: #ffffff;
 }
 
 .project:hover {
@@ -76,6 +95,14 @@ p {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .project-name {

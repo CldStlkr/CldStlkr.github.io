@@ -6,65 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Neel Tamtam</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
   <div class="container">
     <div class="header">
       <h1>Neel Tamtam</h1>
-      <div class="subtitle">Systems Engineer</div>
+      <div class="subtitle">Software Engineer</div>
     </div>
 
     <h2>About</h2>
-    <p class="intro">I build systems software using C, C<span class="plus-plus">++</span>, and Rust, with a focus on
-      performance optimization and memory management. Whether it's bare metal programming or high-level web
-      applications, I'm passionate about writing efficient, reliable code. When I'm not programming, I enjoy cooking,
-      calisthenics, reading Japanese and English books, and playing with my dog, Java.</p>
+    <p class="intro">
+      I write code in C, C<span class="plus-plus">++</span>, and Rust, with a focus on embedded systems,
+      GPU programming, and the Rust ecosystem. My projects range from bare-metal
+      firmware to full-stack web apps. Outside of programming, I enjoy cooking,
+      reading Japanese and English books, and playing with my dog, Java.
+    </p>
 
     <h2>Projects</h2>
 
-    <a href="https://github.com/CldStlkr/moji" target="_blank" rel="noopener noreferrer">
-      <div class="project">
+    <div class="project">
+      <div class="project-header">
         <div class="project-name">Moji (文字)</div>
-        <div class="project-title">Multiplayer Kanji Web Game</div>
-        <div class="project-lang">Rust</div>
-        <div class="project-desc">Real-time multiplayer Japanese language learning platform where players can play
-          against each other providing a dictionary-valid Japanese word that contains a randomly provided kanji.</div>
-      </div>
-    </a>
-
-    <a href="https://github.com/CldStlkr/cuda-raytracer" target="_blank" rel="noopener noreferrer">
-      <div class="project">
-        <div class="project-name">Trace</div>
-        <div class="project-title">Interactive Ray Tracing Simulator</div>
-        <div class="project-lang">C<span class="plus-plus">++</span>, CUDA</div>
-        <div class="project-desc">CUDA-accelerated ray tracing simulator that allows the toggling of
-          different effects such as time of day, anti-aliasing, and particle reflections in real-time.</div>
-      </div>
-    </a>
-
-    <a href="https://github.com/CldStlkr/morph-rt" target="_blank" rel="noopener noreferrer">
-      <div class="project">
-        <div class="project-name">Morph-RT</div>
-        <div class="project-title">Custom Real-Time Operating System</div>
-        <div class="project-lang">C, ARM Assembly</div>
-        <div class="project-desc">Custom RTOS currently built for the ARM Cortex-M4 MCU. Implements task scheduling,
-          context switching, and task preemption among other features.
+        <div class="project-icons">
+          <a href="https://github.com/CldStlkr/moji" target="_blank" class="link-icon" aria-lable="Live Project"
+            rel="noopener noreferrer">
+            <i class="fas fa-link"></i>
+          </a>
+          <a href="https://github.com/CldStlkr/moji" target="_blank" class="github-icon" aria-lable="GitHub Repo"
+            rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
       </div>
+      <div class="project-title">Multiplayer Kanji Web Game</div>
+      <div class="project-lang">Rust</div>
+      <div class="project-desc">Live multiplayer Japanese language learning platform where players can compete
+        against each other in custom lobbies. Inspired by the hit web game "Bomb Party".</div>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <div class="project-name">Trace</div>
+        <div class="project-icons">
+          <a href="https://github.com/CldStlkr/cuda-raytracer" target="_blank" class="github-icon"
+            aria-lable="GitHub Repo" rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-title">Interactive Ray Tracing Simulator</div>
+      <div class="project-lang">C<span class="plus-plus">++</span>, CUDA</div>
+      <div class="project-desc">CUDA-accelerated ray tracing simulator that allows the toggling of
+        different effects such as time of day, anti-aliasing, and particle reflections in real-time.</div>
+    </div>
+    </a>
+
+    <div class="project">
+      <div class="project-header">
+        <div class="project-name">Morph-RT</div>
+        <div class="project-icons">
+          <a href="https://github.com/CldStlkr/morph-rt" target="_blank" class="github-icon" aria-lable="GitHub Repo"
+            rel="noopener noreferrer">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <div class="project-title">Custom Real-Time Operating System</div>
+      <div class="project-lang">C, ARM Assembly</div>
+      <div class="project-desc">Custom RTOS currently built for the ARM Cortex-M4 MCU. Implements task scheduling,
+        context switching, and task preemption among other features.
+      </div>
+    </div>
     </a>
 
     <h2>Skills</h2>
     <div class="skills">
+      <span class="skill">C</span>
       <span class="skill">C<span class="plus-plus">++</span></span>
       <span class="skill">Rust</span>
-      <span class="skill">C</span>
       <span class="skill">ARM Assembly</span>
       <span class="skill">Python</span>
-      <span class="skill">Java</span>
       <span class="skill">AWS</span>
       <span class="skill">Linux</span>
       <span class="skill">Docker</span>
+      <span class="skill">OpenGL</span>
       <span class="skill">CUDA</span>
       <span class="skill">PostgreSQL</span>
       <span class="skill">MongoDB</span>
